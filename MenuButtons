@@ -1,0 +1,9 @@
+using UnityEngine
+
+public class MenuButtons : MonoBehavior
+{
+  public void OnQuitClick()
+  {
+    Application.Quit();
+  }
+}
