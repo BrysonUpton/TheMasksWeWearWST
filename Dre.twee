@@ -1,0 +1,444 @@
+:: StoryTitle
+Dre
+
+
+:: StoryData
+{
+  "ifid": "0EF8801F-1709-4FBC-8180-E25FCB023077",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "tag-colors": {
+    "Time-skip": "blue",
+    "Bad-ending": "red"
+  },
+  "zoom": 1
+}
+
+
+:: ... {"position":"2025,50","size":"100,100"}
+"Just leave it be. For your sake"
+
+1. But cmon, gotta tell me [[Have to leave]]
+2. What kind of danger is this? [[Danger]] 
+
+
+:: Affiliated [Time-skip] {"position":"2325,175","size":"100,100"}
+"Because I'm . . . in a gang."
+
+1. A GANG!? [[Surprise]]
+2. Which?  [[Which gang]]
+
+
+:: After coffee {"position":"825,300","size":"100,100"}
+"Thanks man, actually pretty good."
+
+1. Thank you [[Thanks]]
+2. What brings you over here? [[Reason]]
+3. How's your day been? [[Day]]
+
+
+:: Alright {"position":"1425,425","size":"100,100"}
+"Alright man, glad we could fix that up"
+
+[[Questions]] 
+
+
+:: Apology {"position":"1275,550","size":"100,100"}
+"Maybe I should be sorry. Who knows."
+
+1. Confusing, but okay [[Alright]] 
+
+
+:: Appreciated {"position":"1125,50","size":"100,100"}
+"No problem man, though I do have a question..."
+
+1. Go ahead [[What's your thing?]] 
+
+
+:: Bad cause {"position":"2925,425","size":"100,100"}
+"Not like he had any other choices. Not with the money he needed, how soon he needed it, and who he needed it for."
+
+1. Well- [[Decision]] 
+
+
+:: Brings him {"position":"1725,175","size":"100,100"}
+"Wanted some coffee. Is that so wrong in this city?"
+
+1. I wouldn't say so [[No]]
+2. Feel like there's more to this [[Nothing more]]
+
+
+:: Chill [Bad-ending] {"position":"2325,675","size":"100,100"}
+"I'll show you chill."
+
+
+:: Coffee type {"position":"1725,425","size":"100,100"}
+"1. Not a question. 2. What does that mean?"
+
+1. You seem like someone who wouldn't like coffee [[Likes coffee]]
+2. Dunno, just don't seem to like coffee [[Likes coffee]]
+
+
+:: Dad {"position":"2775,425","size":"100,100"}
+"Leave my dad alone. He alone kept us going after mom left, this is just how he did it."
+
+1. That's a good cause, I suppose [[Good cause]]
+2. Still not a reason to join a gang [[Bad cause]]
+
+
+:: Danger {"position":"2175,175","size":"100,100"}
+"Telling you would put us both in a bad situation."
+
+1. But why? [[Affiliated]]
+
+
+:: Day {"position":"975,425","size":"100,100"}
+"My day wasn't any of your business. Step off."
+
+1. Dang okay my bad [[Right place]]
+2. Hey watch it [[Step off]]
+
+
+:: Decision [Time-skip] {"position":"3075,300","size":"100,100"}
+"Well what?"
+
+1. I think you should leave the gang. [[Mask off ending]]
+2. I think staying in is your best bet. [[Mask on ending]]
+
+
+:: Dunno {"position":"2175,675","size":"100,100"}
+"sure you don't"
+
+1. Hey man, chill out. [[Chill]]
+2. I'm sorry [[Sorry]] 
+
+
+:: Family {"position":"1725,300","size":"100,100"}
+"Why you asking about my family? There sum you know I don't?"
+
+1. I was just curious, my bad [[My fault]]
+2. What's up with your family? [[Paranoid]]
+
+
+:: Gang life {"position":"2475,550","size":"100,100"}
+"I . . . Got stuck in a pretty bad situation, and that has brought on a life I don't want."
+
+1. I understand how that feels [[Understanding]]
+2. Can't anyone help? [[No parents]]
+
+
+:: Good cause {"position":"2925,300","size":"100,100"}
+"That was the only way he could help us, and now that's the only way I can keep my family safe."
+
+1. Well- [[Decision]]
+
+
+:: Have to leave [Bad-ending] {"position":"2175,50","size":"100,100"}
+"I gotta go, to keep you from looking into it further."
+
+
+:: Helping people {"position":"1275,50","size":"100,100"}
+"How do you help people here?"
+
+1. I get them out of their shells [[Shells]]
+2. I have my ways [[Ways]]
+
+
+:: Honesty {"position":"2775,175","size":"100,100"}
+"They're holding my family hostage. If I leave they deal with them, if you get it."
+
+1. Oh... [[Oh]]
+
+
+
+:: How {"position":"2625,300","size":"100,100"}
+"My dad had ties. When he kicked it they came to 'collect' me."
+
+1. Seriously? [[Seriously]]
+2. Sounds like a bad dad [[Dad]]
+
+
+:: Knew it {"position":"2025,550","size":"100,100"}
+"What'll you do now that the cat's out of the bag?"
+
+1. Nothing [[Nothing]]
+2. Dunno [[Dunno]]
+
+
+:: Leave [Bad-ending] {"position":"2325,300","size":"100,100"}
+"If that's how you feel then I will."
+
+
+
+
+:: Likes coffee {"position":"1875,550","size":"100,100"}
+"Okay I'll be honest I just wanted the ice cream."
+
+1. I knew it [[Knew it]]
+
+
+:: Make coffee {"position":"1425,300","size":"100,100"}
+"That checks out"
+
+[[Questions]]
+
+
+:: Mask off ending {"position":"3225,225","size":"100,100"}
+"You seriously think that's a good idea?"
+
+1. Yes I do, I don't think your family will be harmed [[Off 1]]
+
+
+:: Mask on ending {"position":"3225,375","size":"100,100"}
+"I think so too."
+
+1. It's safer for your family [[On 1]]
+
+
+:: My bad {"position":"1275,425","size":"100,100"}
+"Maybe I got a little hostile. My bad"
+
+1. It's alright [[Alright]]
+
+
+:: My fault {"position":"1875,425","size":"100,100"}
+"Well stay out of it. For your sake. I would rather no one else get dragged into this."
+
+1. Dragged into what? [[What'd i just say]]
+2. How bad is it really? [[Very bad]]
+
+
+:: No {"position":"1875,50","size":"100,100"}
+"Exactly, so stay far out of my business before thing go wrong for you."
+
+1. Is that a threat? [[Threat]]
+2. Okay... [[...]]
+
+
+:: No parents {"position":"2625,425","size":"100,100"}
+"My mother was never in the picture, and my dad died recently. Those people who I told you about have my family hostage, so I can't get out."
+
+1. How'd you pull that off? [[How]]
+
+
+:: Nothing {"position":"2175,550","size":"100,100"}
+"Alright."
+
+1. Hey I'm sorry [[Sorry]] 
+
+
+:: Nothing more {"position":"1875,175","size":"100,100"}
+"You don't want to be a part of my problems."
+
+1. That sounds threatening [[Threat]] 
+2. I mean I'd be fine if I was [[What'd i just say]] 
+
+
+:: Off 1 {"position":"3375,225","size":"100,100"}
+"How could you know? There's no way that they're gonna be safe without me"
+
+1. That gang won't hold up [[Off 2]]
+
+
+:: Off 2 {"position":"3525,225","size":"100,100"}
+"Well, they are being investigated currently..."
+
+1. Exactly, just get out before you do anything you regret [[Off 3]]
+
+
+:: Off 3 {"position":"3675,225","size":"100,100"}
+"You make a solid point. I could hide away with them until they sizzle out..."
+
+1. I believe in you [[Off final]]
+
+
+:: Off final {"position":"3825,225","size":"100,100"}
+"Thanks, names Dre by the way. Thought I should tell you in case I ended up in the paper"
+
+//Off ending
+
+
+:: Oh {"position":"2925,175","size":"100,100"}
+"Yeah, so if I leave they will probably be done in, but if I don't then I'm suck in this gang"
+
+1. Well- [[Decision]] 
+
+
+:: On 1 {"position":"3375,375","size":"100,100"}
+"Save your breath. I know I have to keep them safe. Me and me alone"
+
+1. You got it... Uhhhh [[On 2]]
+
+
+:: On 2 {"position":"3525,375","size":"100,100"}
+"What is it?"
+
+1. I never learned your name... [[On 3]]
+
+
+:: On 3 {"position":"3675,375","size":"100,100"}
+"I'm Dre. Good to meet you I guess."
+
+1. Good to meet you too [[On final]]
+
+
+:: On final {"position":"3825,375","size":"100,100"}
+"Yeah. Look out for me in any papers."
+
+//On end
+
+
+:: Oops {"position":"2175,300","size":"100,100"}
+"You can't just say oops when you could be at risk."
+
+1. Why would I be at risk? [[Affiliated]] 
+2. If you're that much trouble then why not leave? [[Leave]]
+
+
+:: Pain [Bad-ending] {"position":"2775,550","size":"100,100"}
+"No you don't..."
+
+
+:: Paranoid {"position":"1875,300","size":"100,100"}
+"They're fine. It's all fine. Stay out of it."
+
+1. I'm sure there's something going on. [[Nothing more]] 
+2. Okay... My bad... [[My fault]] 
+
+
+:: Player's thing {"position":"2175,425","size":"100,100"}
+"I don't care what you're thing is don't try to 'fix' me"
+
+1. Okay sorry [[Sorry]]
+
+
+:: Questions [Time-skip] {"position":"1575,300","size":"100,100"}
+"SO, what questions you have for me?"
+
+1. What brings you today? [[Brings him]]
+2. Hows the family doing? [[Family]]
+3. You don't seem like the coffee type [[Coffee type]]
+
+
+:: Reason {"position":"975,300","size":"100,100"}
+"Came here cus I wanted a break. Nothing more or less."
+
+1. Fair enough [[What's your thing?]]
+2. Doesn't sound like it [[Watch it]]
+
+
+:: Right place {"position":"1125,425","size":"100,100"}
+"That's what I thought man. Glad you know where we stand."
+
+1. Sorry? [[Apology]] 
+2. Dang okay I'll back off [[My bad]] 
+
+
+:: Seriously {"position":"2775,300","size":"100,100"}
+"I'm serious. He had debts he forgot to pay, so I was the price paid."
+
+1. Your dad sounds messed up [[Dad]] 
+2. Is everything okay? [[Honesty]] 
+
+
+:: Shells {"position":"1425,50","size":"100,100"}
+"I am not going to delve into that any more."
+
+[[Questions]] 
+
+
+:: Sorry [Time-skip] {"position":"2325,550","size":"100,100"}
+"It's alright..."
+
+1. You can tell me what's up. [[Gang life]]
+
+
+:: Start {"position":"675,300","size":"100,100"}
+"Hey man, lemme get an Affogato."
+
+[[After coffee]]
+
+
+:: Step off {"position":"1125,550","size":"100,100"}
+"Look here, things can get bad if you don't calm down"
+
+1. Sorry... [[Apology]]
+2. Alright man no need to get aggressive [[Right place]] 
+
+
+:: Surprise {"position":"2475,175","size":"100,100"}
+"Don't say it so loud. Yes, I'm in a gang."
+
+1. Why? [[Why]]
+2. How'd you do that? [[How]]
+
+
+:: Thanks {"position":"975,175","size":"100,100"}
+"No problem man, earned it after this cup."
+
+1. Much appreciated [[Appreciated]]
+2. What brings you here anyways? [[Reason]] 
+
+
+:: Them {"position":"2625,50","size":"100,100"}
+"Yeah, them. Need to be honest with you about something."
+
+1. What is it? [[Honesty]] 
+
+
+:: Threat {"position":"2025,175","size":"100,100"}
+"I'm just warning you now, because things aren't pretty behind the scenes."
+
+1. Are you in danger or something? [[Danger]]
+2. Sure man...[[...]]
+
+
+:: Understanding {"position":"2625,550","size":"100,100"}
+"How would you?"
+
+1. I understand that kind of pain [[Pain]]
+
+
+:: Very bad {"position":"2025,425","size":"100,100"}
+"Very bad, like life and death bad. Why can't you just keep your nose out of my business?"
+
+1. I don't know, kinda my thing. [[Player's thing]]
+
+
+:: Watch it {"position":"1125,300","size":"100,100"}
+"Stay in your lane man. My buisiness isn't your issue."
+
+1. Okay then [[My bad]]
+
+
+:: Ways {"position":"1425,175","size":"100,100"}
+"Man don't play with me. Better not be messing people up."
+
+[[Questions]] 
+
+
+:: What'd i just say {"position":"2025,300","size":"100,100"}
+"Man what did I JUST say?"
+
+1. Oops [[Oops]]
+
+
+:: What's your thing? {"position":"1125,175","size":"100,100"}
+"What all do you do anyways?"
+
+1. Help people [[Helping people]]
+2. Make coffee [[Make coffee]]
+
+
+
+:: Which gang {"position":"2475,50","size":"100,100"}
+"That doesn't really matter, though they were in the paper recently."
+
+1. Oh those guys? [[Them]]
+
+
+:: Why {"position":"2625,175","size":"100,100"}
+"You want honesty?"
+
+1. Preferably [[Honesty]]

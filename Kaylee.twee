@@ -1,0 +1,470 @@
+:: StoryTitle
+Kaylee
+
+
+:: StoryData
+{
+  "ifid": "3DB8B5FB-3A61-42F1-AD83-FF56CC5A75F4",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "tag-colors": {
+    "Time-Jump": "blue",
+    "Bad-Ending": "red",
+    "Start": "orange"
+  },
+  "zoom": 1
+}
+
+
+:: Acceptance [Time-Jump] {"position":"2625,800","size":"100,100"}
+"Are you really sure you want to know?"
+
+1. Yes, I am [[Prelude to incident]]
+
+
+:: After coffee {"position":"825,300","size":"100,100"}
+"I'd say it's alright. Wouldn't give it more than three stars though."
+
+1. Why are you so mean? [[Snarky remark]]
+2. Thank you? [[You should be]]
+3. I didn't ask for your opinion [[Taken aback]]
+
+
+:: Annoyed {"position":"1125,175","size":"100,100"}
+"What's that supposed to mean!?"
+
+1. Nothing... [[More annoyed]]
+2. You know what I mean [[Meaning]]
+
+
+:: Apology {"position":"2325,550","size":"100,100"}
+"I am. I feel bad for what I've put you through."
+
+1. You're forgiven then [[Forgiven]]
+2. Why would you be this mean anyways? [[Acceptance]] 
+
+
+:: Attitude {"position":"2175,425","size":"100,100"}
+"Nothing is wrong with my attitude."
+
+1. But you're being overly rude [[Rude]]
+
+
+:: Chance {"position":"2025,300","size":"100,100"}
+"And?"
+
+1. Final chance [[Eviction]]
+
+
+:: Concerned {"position":"1275,425","size":"100,100"}
+"I don't deserve to be treated like that"
+
+1. You do [[Meaning]] 
+2. Maybe not... [[Exactly]]
+
+
+:: Confused {"position":"1125,300","size":"100,100"}
+"That- wasn't the response I was expecting..."
+
+1. You should expect this [[Meaning]] 
+2. It's nothing... [[More annoyed]] 
+
+
+:: Decision {"position":"3675,300","size":"100,100"}
+//mask stage 2
+
+"What's up?"
+
+1. I think you should be yourself [[Off ending]]
+2. I think you'd be better off mean [[On ending]]
+
+
+:: Didn't wanna {"position":"1125,50","size":"100,100"}
+"Is it my job to? You should know how to make my drink for me."
+
+1. Not if you have a specific request [[Request]]
+2. Why are you like this? [[Annoyed]] 
+
+
+:: Don't care {"position":"1875,50","size":"100,100"}
+"They couldn't care less about where I am. Regardless it isn't your job to parent me"
+
+1. You know that isn't a good thing, right? [[Not a good thing]]
+2. Not trying to parent you [[Parenting]]
+
+
+:: Don't see {"position":"2025,425","size":"100,100"}
+"There what is? Hm?"
+
+1. That mean attitude [[Attitude]]
+2. Just why are you mean? [[Why mean]] 
+
+
+:: Eviction [Bad-Ending] {"position":"2175,300","size":"100,100"}
+"Fine then. I'll go."
+
+//She leaves.
+
+Mask on
+
+
+:: Exactly {"position":"1425,425","size":"100,100"}
+"That's what I thought."
+
+[[Questions]] 
+
+
+:: Feeling {"position":"2625,425","size":"100,100"}
+"Like I am actually seen and forgiven by someone. My parents could never."
+
+1. That seems messed up, don't you think? [[Messed up]] 
+
+
+:: Forgiven [Time-Jump] {"position":"2475,550","size":"100,100"}
+//mask stage 1
+
+"I am? Just like that?"
+
+1. You are. [[You are]]
+2. Is that a surprise? [[Surprise]]
+
+
+:: Friends {"position":"2325,675","size":"100,100"}
+"They are the only ones who would accept me anymore."
+
+1. Why is that? [[Acceptance]]
+
+
+:: Furious {"position":"1425,175","size":"100,100"}
+"I'm seconds away from leaving this cafe. But I won't."
+
+[[Questions]] 
+
+
+:: Incident {"position":"2925,300","size":"100,100"}
+"Well, I was always bullied for the way I acted. People didn't really like how obsurdly kind I was."
+
+1. Weird thing to hate over. [[Pt2]]
+
+
+:: Is it good {"position":"2775,550","size":"100,100"}
+"Well yeah I'd say so. In a normal way. Haven't even felt close since the incident."
+
+1. Incident? [[Incident]] 
+
+
+:: It is {"position":"2775,175","size":"100,100"}
+"It is normal. Especially after the incident"
+
+1. The what? [[Incident]] 
+
+
+:: Lame parents {"position":"2775,675","size":"100,100"}
+"My parents are lame. Not to mention the incident."
+
+1. What incident? [[Incident]] 
+
+
+:: Mean {"position":"1875,175","size":"100,100"}
+"I'll be as mean as I want to be. Who are you to stop me."
+
+1. Maybe I don't like you being mean to me [[Mean to me]]
+2. The owner of this store. [[Chance]]
+
+
+:: Mean to me {"position":"2175,175","size":"100,100"}
+"Well maybe you don't, but why should I care?"
+
+1. Didn't your parents teach you to be nice? [[Parents]] 
+
+
+
+:: Meaning {"position":"1425,300","size":"100,100"}
+"I really don't"
+
+[[Questions]] 
+
+
+:: Messed up {"position":"2775,425","size":"100,100"}
+"You don't know the half of it. They didn't even come home after the incident"
+
+1. There was an incident? [[Incident]] 
+
+
+:: More annoyed {"position":"1275,175","size":"100,100"}
+"You can't just say 'Nothing'! Tell me now!"
+
+1. I'd rather not [[Furious]]
+2. You're annoying [[More sass]]
+
+
+:: More sass {"position":"1425,50","size":"100,100"}
+"Well that sucks for you..."
+
+[[Questions]] 
+
+
+:: Normally {"position":"2775,300","size":"100,100"}
+"Well normally I am mean, but I don't like to be. All because of that incident..."
+
+1. What incident? [[Incident]] 
+
+
+:: Not a good thing {"position":"2175,50","size":"100,100"}
+"Doesn't matter if it's good or not, It's just a fact of life"
+
+1. Tell me about your parents then [[Parents]]
+2. But it shouldn't be [[Shouldn't be]]
+
+
+:: Not a question {"position":"1875,425","size":"100,100"}
+"You know that isn't a question, right?"
+
+1. See, there it is [[Don't see]]
+2. Okay, so why are you mean? [[Why mean]]
+
+
+:: Not deserved {"position":"1125,425","size":"100,100"}
+"It wasn't, not at all."
+
+1. We both know it was [[Concerned]]
+
+
+:: Off 1 {"position":"3975,225","size":"100,100"}
+"But what if I'm bullied again? Or lose my friends?"
+
+1. Are you trying to please others or enjoy your own life? [[Off 2]]
+
+
+:: Off 2 {"position":"4125,225","size":"100,100"}
+"I've been pleasing others, but obviously that hasn't worked. So it's about time I enjoy my life."
+
+1. There you go- Uhhh [[Off 3]]
+
+
+:: Off 3 {"position":"4275,225","size":"100,100"}
+"Something up?"
+
+1. I never got your name... [[Off 4]]
+
+
+:: Off 4 {"position":"4425,225","size":"100,100"}
+"Oh yeah, whoops, I'm Kaylee. Nice to meet you."
+
+1. Very nice to meet you too. [[Off final]]
+
+
+:: Off ending {"position":"3825,225","size":"100,100"}
+"You- You really think so?"
+
+1. I do [[Off 1]]
+
+
+:: Off final {"position":"4575,225","size":"100,100"}
+"I don't think I can thank you enough. Let's hope this all pays off"
+
+//mask off ending
+
+
+:: On 1 {"position":"3975,375","size":"100,100"}
+"Even after all I've told you, you still are going to side with everyone else?"
+
+1. I'm just saying, sounds like you're pretty popular [[On 2]]
+
+
+:: On 2 {"position":"4125,375","size":"100,100"}
+"You- really think that this is worth while?"
+
+1. In the end, yes [[On 3]]
+
+
+:: On 3 {"position":"4275,375","size":"100,100"}
+"YOU AREN'T ANY BETTER THAN THEM! NOT BETTER THAN MY PARENTS EITHER!"
+
+1. No need to get loud. [[On 4]]
+
+
+:: On 4 {"position":"4425,375","size":"100,100"}
+"And I trusted you enough to tell you about the incident. I regret coming here."
+
+1. Well, I hope your friends still do [[On final]]
+
+
+:: On ending {"position":"3825,375","size":"100,100"}
+"Wait, wha?"
+
+1. It isn't worth chancing your life [[On 1]]
+
+
+:: On final {"position":"4575,375","size":"100,100"}
+"I know there will be a special place for you to burn..."
+
+//mask on ending (you horrible person)
+
+
+:: Parenting {"position":"2025,50","size":"100,100"}
+"But you are. Geez, how hard-headed are you? I don't want or need your 'help'"
+
+1. Geez you're mean [[Mean]] 
+2. Still isn't a good thing regardless [[Not a good thing]] 
+
+
+:: Parents {"position":"2325,175","size":"100,100"}
+"My parents? They always have something better to do than show me any effection."
+
+1. Haven't they cared about you before? [[Shouldn't be]] 
+2. What do they do then? [[Trips]]
+
+
+:: Prelude to incident {"position":"2775,800","size":"100,100"}
+"Well, let me tell you about the incident, as I call it."
+
+1. What about this incident? [[Incident]] 
+
+
+:: Pretending {"position":"2625,50","size":"100,100"}
+"Because this is the best way I have to be recognized at all."
+
+1. Recognized by who? [[School friends]]
+2. It really can't be [[It is]]
+
+
+:: Pt2 {"position":"3075,300","size":"100,100"}
+"It is. Then one day, this really crappy chick came over and got physical with me."
+
+1. She did what!? [[Pt3]]
+
+
+:: Pt3 {"position":"3225,300","size":"100,100"}
+"That's how I felt about it. But anyway she got really handsy and pushed me against the wall. To this day I don't even know her name or why she did that."
+
+1. Sounds like some kind of dare [[Pt4]]
+
+
+:: Pt4 {"position":"3375,300","size":"100,100"}
+"Doesn't it? She kept bullying me until I couldn't take it and I hit her back, and they suspended me for that."
+
+1. Why did they do that? [[Pt5]]
+
+
+:: Pt5 [Time-Jump] {"position":"3525,300","size":"100,100"}
+"School is weird. But regardless having that bad rep got to my head. Not to mention I stopped getting bullied. So I doubled down, and here we are today."
+
+1. Well... [[Decision]]
+
+
+:: Questions [Time-Jump] {"position":"1575,300","size":"100,100"}
+"Sooooooooo... Got any questions for me?"
+
+1. Are you still in school? [[School]]
+2. What brings you in today? [[Why she's here]]
+3. You're quite mean [[Not a question]]
+
+
+:: Request {"position":"1275,50","size":"100,100"}
+"Then make me a mocha with double chocolate next time. There, now you know."
+
+1. That wasn't worth the sass [[More sass]]
+
+
+:: Rude {"position":"2325,425","size":"100,100"}
+"Well- okay maybe I've been really rude. I'm sorry."
+
+1. You're... Apologizing? [[Apology]]
+
+
+:: School {"position":"1725,175","size":"100,100"}
+"Isn't it obvious? Look at me, I'm in a uniform."
+
+1. It is pretty late though... [[Don't care]]
+2. No need to be mean [[Mean]]
+
+
+:: School friends {"position":"2775,50","size":"100,100"}
+"All of my school 'friends'. They took me in after the incident, so I owe them."
+
+1. The incident? [[Incident]]
+
+
+:: Shouldn't be {"position":"2325,50","size":"100,100"}
+"Obviously no one has cared, otherwise I doubt I'd be where I am."
+
+//Mask Stage 1
+
+1. Where is that? [[Where she is]]
+
+
+:: Snarky remark {"position":"975,175","size":"100,100"}
+"Well maybe I'd be nicer if my drink was made how I wanted it to be."
+
+1. You never told me anything like that [[Didn't wanna]]
+2. Would still be the same coffee [[Annoyed]]
+
+
+:: Start [Start] {"position":"675,300","size":"100,100"}
+"HEY! BARISTA! Make me a mocha. STAT!"
+
+[[After coffee]]
+
+
+:: Surprise {"position":"2625,675","size":"100,100"}
+"Not entirely, just isn't normal to me."
+
+1. Why's that? [[Lame parents]]
+
+
+:: Taken aback {"position":"975,425","size":"100,100"}
+"Wow, rude."
+
+1. It's deserved [[Not deserved]]
+
+
+:: Thanks {"position":"1875,300","size":"100,100"}
+"Don't let it go to your head, this place could use a makeover"
+
+1. Don't gotta be mean about it [[Mean]] 
+
+
+:: Trips [Time-Jump] {"position":"2475,175","size":"100,100"}
+//mask stage 1
+
+"Usually on vacation or a trip, treating themselves and leaving me to fend for myself."
+
+1. Geez that's messed up [[Messed up]]
+2. Explains why you're mean [[Normally]] 
+
+
+:: Where she is [Time-Jump] {"position":"2475,50","size":"100,100"}
+"I'm stuck walking around pretending to be mean when I'm not a part of that crowd."
+
+1. So you aren't super mean normally? [[Normally]]
+2. Why are you pretending? [[Pretending]]
+
+
+:: Why mean {"position":"2025,550","size":"100,100"}
+"Because that's how my friends are! I have to be mean to fit in. I'm sorry. "
+
+1. You're sorry? [[Apology]] 
+2. You have bad friends then [[Friends]]
+
+
+:: Why she's here {"position":"1725,300","size":"100,100"}
+"I'm here because my friends recomended me. Pretty alright place."
+
+1. Well thank you [[Thanks]]
+
+
+:: You are {"position":"2625,550","size":"100,100"}
+"I don't think I've felt like this before."
+
+1. Felt like what...? [[Feeling]]
+2. Is that good? [[Is it good]]
+
+
+:: You should be {"position":"975,300","size":"100,100"}
+"You should be grateful, even honored that I'm complementing you at all"
+
+1. That wasn't even a complement [[Annoyed]] 
+2. I'm not [[Taken aback]] 
+3. Okay... [[Confused]]

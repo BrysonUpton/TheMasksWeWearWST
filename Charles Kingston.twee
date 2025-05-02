@@ -1,0 +1,441 @@
+:: StoryTitle
+Charles Kingston
+
+
+:: StoryData
+{
+  "ifid": "D7AB581F-1FA8-4013-A96B-10256D6C5890",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "tag-colors": {
+    "Time-skip": "blue"
+  },
+  "zoom": 1
+}
+
+
+:: After coffee {"position":"825,425","size":"100,100"}
+"I heard you were good, but this is quite the coffee."
+
+1. Aren't you the mayor? [[Mayor]]
+2. Quite the compliment [[Compliment]]
+3. Didn't know I was so popular [[Popular]]
+
+
+:: Awful {"position":"2475,925","size":"100,100"}
+"Don't be a baby about it. This is how the world works."
+
+1. Didn't you say you loved kids? [[Kids]]
+
+
+:: Beliefs {"position":"2775,300","size":"100,100"}
+"My beliefs revolve around the pursuit of money and fame, both of which this job have given me."
+
+1. Think about the people! [[People]]
+
+
+:: Big question {"position":"2325,550","size":"100,100"}
+"What must you ask?"
+
+1. Did you lie during your campaign? [[He did]]
+2. What'reyou trying to do? [[Real]] 
+
+
+:: Campaign {"position":"2025,300","size":"100,100"}
+"My campaign went quite well, even though my competators and many news outlets tried making me seem like a liar."
+
+1. Lying about what? [[The case]]
+2. Did they have any proof? [[Proof]]
+
+
+:: Charges {"position":"1725,300","size":"100,100"}
+"Those charges are absolute garbage."
+
+1. What're they over? [[Crime]]
+2. Doesn't sound like it [[Sound like]]
+
+
+:: Children [Time-skip] {"position":"3075,300","size":"100,100"}
+"They are leeches, but for some reason people love them. So I exploited thei love."
+
+1. . . . [[Decision]] 
+
+
+:: Compliment {"position":"975,425","size":"100,100"}
+"It's well earned, I'd say."
+
+1. Why's that? [[Popular]] 
+2. Well thank you then [[Thanks]]
+
+
+:: Cool {"position":"2175,425","size":"100,100"}
+"It is, and it's quite lucrative." 
+
+1. There's something I want to ask you [[Big question]]
+
+
+:: Crime {"position":"1875,175","size":"100,100"}
+"Over fraud. They say that I am lying when I say I am all for supporting children."
+
+1. That doesn't sound bad at all [[Sounds bad]]
+2. They have to have a reason, right? [[Hate]]
+
+
+:: Customers {"position":"1125,675","size":"100,100"}
+"Why yes, quite the increase. Along with better funding, thanks to someone..."
+
+1. You're responsible for my new ingredients? [[Ingredients]]
+
+
+:: Decision {"position":"3225,425","size":"100,100"}
+"So, what now?"
+
+1. I think you should be more honest [[Off ending]]
+2. I think you need to keep that to yourself [[On ending]]
+
+
+:: Favorite {"position":"1875,675","size":"100,100"}
+"If my generous contributions weren't enough to make that obvious, yes, you are."
+
+1. That's high praise coming from the mayor [[Praise]]
+
+
+:: Fishy {"position":"2175,50","size":"100,100"}
+"Trust me my friend, there is not a hating bone in my body, no matter what was said before."
+
+1. What happened before? [[The case]] 
+
+
+:: Fund {"position":"1875,800","size":"100,100"}
+"You are. I wanted to give back to the community, so I started that fund to do just that."
+
+1. It's been very helpful [[Helpful]]
+
+
+:: GTK {"position":"1125,550","size":"100,100"}
+"Yes it is. You should prepare for more visits from me. I quite like this place."
+
+1. That means a lot [[Thanks]] 
+2. Well thanks [[Simple thanks]]
+
+
+:: Good deeds {"position":"1125,175","size":"100,100"}
+"I've done many good things for this city, they've been in most papers this last week"
+
+1. That is a gross overstatement. [[Overstatement]]
+2. Yeah... Sure [[Say so]] 
+
+
+:: Growing up {"position":"2775,175","size":"100,100"}
+"Growing up the way I did I saw my family get out of every problem with either money or status. I have both."
+
+1. But what about your people? [[People]] 
+
+
+:: Hate {"position":"2025,175","size":"100,100"}
+"There have been multiple groups who assume that I am not the same man behing closed doors. I assure you I am."
+
+1. Sounds fishy... [[Fishy]]
+2. I trust you, doubt there's any proof. [[Proof]]
+
+
+:: Have to {"position":"2175,925","size":"100,100"}
+"For what I'm doing and the amount of people against it, yes"
+
+1. What're you doing? [[Real]]
+
+
+:: He did {"position":"2475,300","size":"100,100"}
+"Oh yeah I definitly did. Whatever got votes I would say, and people ate it up."
+
+1. That's really illegal [[Law]]
+
+
+:: Helpful {"position":"2025,800","size":"100,100"}
+"Especially for the press. Public opinion of me has never been higher."
+
+1. I can understand why [[Understand why]]
+2. Does it have to be? [[Have to]]
+
+
+:: His people {"position":"1275,425","size":"100,100"}
+"Am I not?"
+
+1. You are [[Relieved]] 
+2. If you say so [[Say so]] 
+
+
+:: Honored {"position":"2175,675","size":"100,100"}
+"No need for honor, I am not the man the media says I am."
+
+1. Wait what? [[Real]]
+
+
+:: Ingredients {"position":"1275,675","size":"100,100"}
+"Why yes I am. I was excited to hear a cafe was opening and wanted to give you little bonuses so you stayed open."
+
+1. I'm putting them to good use [[Relieved]] 
+
+
+:: Kids {"position":"2475,800","size":"100,100"}
+"Oh that? That was just to distract the media. Also majorly boosted P.R."
+
+1. You lied to us all? [[Lies]]
+2. That's why there's a case [[Why]]
+
+
+:: Law {"position":"2625,300","size":"100,100"}
+"The law doesn't apply to the rich, learned that at an early age."
+
+1. What about your beliefs? [[Beliefs]]
+2. How'd you learn that? [[Growing up]]
+
+
+:: Lies {"position":"2625,800","size":"100,100"}
+"Many, many, many times. A lot of false promises and silenced media."
+
+1. Why are you even mayor? [[Why mayor]]
+
+
+:: Mayor {"position":"975,300","size":"100,100"}
+"Yes, I am the mayor. Mayor Kingston, guessing you've seen my good deeds in the paper?"
+
+1. Yeah... Good deeds... [[Good deeds]]
+2. If you say so [[Say so]]
+
+
+:: Off 1 {"position":"3525,350","size":"100,100"}
+"I can just get out of them as I always do, why would I want to risk my position?"
+
+1. But wouldn't you have to pay for that? [[Off 2]]
+
+
+:: Off 2 {"position":"3675,350","size":"100,100"}
+"Hmmmmm, you make a good point. I'm not made of favors either."
+
+1. So if you're honest, then you won't have to deal with it. [[Off 3]]
+
+
+:: Off 3 {"position":"3825,350","size":"100,100"}
+"Very true. I see your reasoning. I think I should."
+
+1. Just be honest with people about your actual intentions [[Off final]]
+
+
+:: Off ending {"position":"3375,350","size":"100,100"}
+"More honest? Why would I do that?"
+
+1. Because it could limit the amount of court cases you face [[Off 1]]
+
+
+:: Off final {"position":"3975,350","size":"100,100"}
+"I think I will be. Thank you many times over for this. Everyone will know the true Charles Kingston."
+
+//Off end
+
+
+:: On 1 {"position":"3525,500","size":"100,100"}
+"So you're saying not to tell anyone else?"
+
+1. Yup [[On 2]]
+
+
+:: On 2 {"position":"3675,500","size":"100,100"}
+"But still do everything I was doing before?"
+
+1. Up to you man [[On 4]]
+
+
+:: On 4 {"position":"3825,500","size":"100,100"}
+"Well splendid. I will be taking my leave."
+
+1. Nice chatting. [[On final]]
+
+
+:: On ending {"position":"3375,500","size":"100,100"}
+"Haven't I been doing that already?"
+
+1. Exactly, keep it up. [[On 1]]
+
+
+:: On final {"position":"3975,500","size":"100,100"}
+
+
+
+:: Origins {"position":"1725,425","size":"100,100"}
+"I came to be mayor by my great leadership skills and amazing grades throughout school and college."
+
+1. That's all? [[That all]]
+2. Sounds expensive [[Rich]]
+
+
+:: Overstatement {"position":"1275,175","size":"100,100"}
+"What does that mean? My publishers have been working hard to show this town what I've done!" 
+
+1. I think that's the problem [[Problem]]
+
+
+:: Parents job {"position":"2025,425","size":"100,100"}
+"My parents own a textile firm, very popular around here. We even supply the student uniforms"
+
+1. That's pretty cool [[Cool]]
+2. For how long? [[Time]]
+
+
+:: People {"position":"2925,300","size":"100,100"}
+"The only reason I even could is if they made me money. Currently they do, except children."
+
+1. That was such a huge part of your campaign [[Children]]
+
+
+:: Popular {"position":"975,550","size":"100,100"}
+"You have gained quite the reputation. Not exactly mainstream, but very known."
+
+1. Good to know [[GTK]]
+2. Explains the increase of customers [[Customers]]
+
+
+:: Praise {"position":"2025,675","size":"100,100"}
+"No need to be so formal, just call me Charles"
+
+1. First name with the mayor, don't I feel honored [[Honored]]
+2. Quite the honor [[Honored]]
+
+
+:: Problem {"position":"1425,175","size":"100,100"}
+"Whatever reasons you have don't matter in the end."
+
+[[Questions]] 
+
+
+:: Proof {"position":"2175,175","size":"100,100"}
+"No good evidence was ever proposed against me."
+
+1. That implies there was something... [[The case]]
+
+
+:: Questions [Time-skip] {"position":"1575,425","size":"100,100"}
+"Now would you have any questions for the mayor of this fine city?"
+
+1. What's up with those forgery charges? [[Charges]]
+2. How'd you become mayor? [[Origins]]
+3. Why are you here? [[Reason]]
+
+
+:: Real [Time-skip] {"position":"2325,800","size":"100,100"}
+"I'm trying to demolish an orphanage to expand my golf course."
+
+1. THAT'S AWFUL! [[Awful]]
+2. Aren't you supposed to be all for the kids? [[Kids]]
+
+
+:: Reason {"position":"1725,550","size":"100,100"}
+"I wanted to see how my favorite coffee shop was doing, and taste the product of my contributions."
+
+1. Your favorite? [[Favorite]]
+2. I am on that business fund, huh? [[Fund]]
+
+
+:: Relieved {"position":"1425,550","size":"100,100"}
+"Well that's a relief"
+
+[[Questions]]
+
+
+:: Rich {"position":"1875,425","size":"100,100"}
+"My family fortune did help fund my schooling, but my campaign was paid for completly by me."
+
+1. What do you parents do [[Parents job]]
+2. And how did your campaign go? [[Campaign]]
+
+
+:: Say so {"position":"1425,425","size":"100,100"}
+"I do say so."
+
+[[Questions]] 
+
+
+:: Scrooge {"position":"2925,800","size":"100,100"}
+"He's practically my idol, I hope one day I can live up to his image"
+
+1. You have read the story, right? [[Story]]
+
+
+:: Simple thanks {"position":"1275,550","size":"100,100"}
+"Was there a problem with what I said?"
+
+1. No, not at all [[Relieved]]
+
+
+:: Sound like {"position":"1875,300","size":"100,100"}
+"They are! Let me tell you what it's over..."
+
+1. Sure? [[Crime]] 
+
+
+:: Sounds bad {"position":"2025,50","size":"100,100"}
+"Exactly! I don't understand why they would slander my name like this."
+
+1. Don't they have a reason? [[Hate]]
+
+
+:: Start {"position":"675,425","size":"100,100"}
+"My good barista, may I get an Americano?"
+
+[[After coffee]]
+
+
+:: Story [Time-skip] {"position":"3075,800","size":"100,100"}
+"Yes I have, he is painted to be the villain and the weakens him enough to go mad. He sees ghosts for goodness sakes."
+
+1. That isn't the point of the story, but okay [[Decision]]
+
+
+:: Thanks {"position":"1125,425","size":"100,100"}
+"Of course. A mayor should always be for his people"
+
+1. Guess you are the mayor, huh? [[Mayor]] 
+2. You should be [[His people]]
+
+
+:: That all {"position":"1875,550","size":"100,100"}
+"Well my prior jobs in law and some military ties helped too."
+
+1. What about funding? [[Rich]]
+
+
+:: The case [Time-skip] {"position":"2325,300","size":"100,100"}
+"There was a case filled against me for lying on my campaign."
+
+1. And did you? [[He did]]
+
+
+:: The how {"position":"2775,675","size":"100,100"}
+"By lying. I would've assumed you understood that. I guess I was wrong to assume."
+
+1. What's even the point of being mayor then? [[Why mayor]] 
+
+
+:: Time {"position":"2175,550","size":"100,100"}
+"The business has had many names, but my family pioneered the industry all the way back in the 1800s."
+
+1. I need to ask you something [[Big question]] 
+
+
+:: Understand why {"position":"2175,800","size":"100,100"}
+"I don't think so. I feel comfortable enough admitting this to you now."
+
+1. Admitting what? [[Real]]
+
+
+:: Why {"position":"2625,675","size":"100,100"}
+"It is. But I know how to avoid cases like these. I've been doing it for years"
+
+1. How have you been doing that? [[The how]]
+
+
+:: Why mayor {"position":"2775,800","size":"100,100"}
+"The money. Being mayor pays the big bucks and I love money."
+
+1. You're a real Scrooge, you know that? [[Scrooge]]
