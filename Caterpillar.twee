@@ -1,0 +1,392 @@
+:: StoryTitle
+Caterpillar
+
+
+:: StoryData
+{
+  "ifid": "538294D1-82E7-4688-9F5C-E2FB541E074C",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Dialog start",
+  "tag-colors": {
+    "Time-Jump": "blue",
+    "Bad-ending": "red"
+  },
+  "zoom": 1
+}
+
+
+:: After coffee {"position":"1050,375","size":"100,100"}
+//Carterpillar takes a swig, 
+
+"MAN, THIS IS SOME GOOOOD COFFEE. HEY, YOU MUST KNOW WHO I AM, DON'T YOU?"
+
+1. No, I don't [[Surprised at response]]
+2. Maybe? [[Confused at response]]
+3. OH YEAH! [[Kinda disapointed]]
+
+
+:: Break {"position":"3000,175","size":"100,100"}
+"It is. I needed to stop. I'm even considering quiting all together."
+
+1. You can't quit! [[Can't quit]]
+2. That may be a good idea. [[Good idea]]
+
+
+:: Can't quit [Time-Jump] {"position":"3150,300","size":"100,100"}
+//mask stage 2
+
+"It would be best if I did. For me."
+
+1. But- [[Desicion]]
+
+
+:: Confused at response {"position":"1200,500","size":"100,100"}
+"MAYBE? HOW COULD YOU MAYBE KNOW ME? DO YOU NOT RECOGNIZE ME?"
+
+1. I don't [[Surprised at response]]
+2. Oh, yeah I kinda do [[Content]]
+
+
+:: Content {"position":"1350,500","size":"100,100"}
+"OH GOOD, THOUGHT YOU WERE CRAZY,"
+
+[[Questions]]
+
+
+:: Desicion {"position":"3300,375","size":"100,100"}
+"Should I quit?"
+
+1. Yes [[Off ending]]
+2. No [[On ending]]
+
+
+:: Dialog start {"position":"900,375","size":"100,100"}
+//Carterpillar walks in and sits down
+
+"YO, CAN I GET A MACCHIATO? NEED TO BRING MY ENERGY UP A BIT"
+
+[[After coffee]]
+
+
+:: Difficult {"position":"2700,50","size":"100,100"}
+"It's very difficult, especially because she made me this way."
+
+1. How'd she do that? [[Support]] 
+
+
+:: Doubt {"position":"2100,250","size":"100,100"}
+"Well, maybe not. Gosh it's weird to talk like this"
+
+[[Truth]]
+
+
+:: Drink choice {"position":"1650,375","size":"100,100"}
+"THINK YOU COULD MAKE ONE AFTER ME? CALL IT WHATEVER YOU'D LIKE"
+
+1. How would "The Carterpiller" sound? [[Fame]]
+2. What about "The Carter"? [[Happy]]
+3. What name would you give it? [[Kindness]]
+
+
+:: Fair {"position":"2100,500","size":"100,100"}
+"THANK YOU FOR UNDERSTANDING"
+
+1. So what next? [[Lies]]
+
+
+:: Fame {"position":"1800,625","size":"100,100"}
+"SOUNDS AWESOME, BUT I DON'T WANT TO STEAL YOUR THUNDER"
+
+1. Oh no you wouldn't [[Wouldn't]]
+
+
+:: Find out {"position":"2850,575","size":"100,100"}
+"There is way too much riding on this to just 'figure it out'"
+
+1. Then what do you want? [[What he wants]] 
+2. What might your fans want? [[What they want]] 
+
+
+:: Getting tired {"position":"2400,575","size":"100,100"}
+"SUCH A GOOD- I can't keep doing this..."
+
+1. Are you okay? [[Leaving]]
+
+
+:: Good idea [Time-Jump] {"position":"3150,175","size":"100,100"}
+//mask stage 2
+
+"Thank you, I'm glad you see it the same way."
+
+1. So- [[Desicion]] 
+
+
+:: Goodbye {"position":"2400,450","size":"100,100"}
+"A- Wait. A goodbye?"
+
+//Mask stage 1
+
+1. Yes, I think it's time [[It's time]]
+
+
+:: Happy {"position":"1950,500","size":"100,100"}
+"I appreciate it, really. IF ANYTHING I'D WANT TO TIE IT BACK TO MY MOM SOMEHOW"
+
+1. What's she like? [[Mother]] 
+2. Well that's fair [[Fair]]
+
+
+:: How often {"position":"2400,300","size":"100,100"}
+"Not often at all. Almost always while I'm alone."
+
+1. With your mom too? [[With mom]] 
+2. That isn't good man [[Not good]]
+
+
+:: How's life {"position":"1650,250","size":"100,100"}
+"Oh, well I've been alright. THANKS FOR ASKING"
+
+1. Your personality shifted like crazy just now. [[Realization]]
+
+
+:: It's time {"position":"2550,450","size":"100,100"}
+"Time for what? I can't leave."
+
+1. I think it's time you do. [[Time to change]] 
+
+
+:: Kinda disapointed {"position":"1200,250","size":"100,100"}
+"GUESS YOU DO KNOW WHO I AM... MY FAME PERSEADS ME!"
+
+[[Questions]] 
+
+
+:: Kindness {"position":"1800,375","size":"100,100"}
+"That's unexpected... I WOULD HAVE TO NAME IT AFTER MY MOTHER THE, MY MAIN INSPERATION!"
+
+1.  Your tune changed quickly [[Realization]] 
+2. What was she like? [[Mother]]
+
+
+:: Leaving [Bad-ending] {"position":"2550,575","size":"100,100"}
+"No. I can't keep pretending. I have to leave, thank you for nothing."
+
+//Bad End
+
+
+:: Lies [Time-Jump] {"position":"2250,450","size":"100,100"}
+"WELL, WHAT ELSE YOU GOT FOR ME? ANY NEW VID IDEAS?"
+
+1. What about a goodbye? [[Goodbye]]
+2. What if it's a new Let's Play? [[Getting tired]]
+
+
+:: Maybe can't {"position":"2850,700","size":"100,100"}
+"Exactly. They could despise me for leaving. I would never be able to live the same."
+
+1. Think about what your fans actually want. [[What they want]]
+
+
+:: More surprise {"position":"1350,375","size":"100,100"}
+"HOLY COW, YOU REALLY DON'T KNOW WHO I AM. WELL I'M THE BIGGEST INFLUENCER AROUND. GLAD TO MEET YOU"
+
+//He strikes a weird pose. Guessing that's some internal joke
+[[Questions]] 
+
+
+:: Mother {"position":"1950,375","size":"100,100"}
+"She was the best, I can attribute all of my success to her."
+
+1. You arn't that loud all the time, are you? [[Doubt]]
+2. Where'd that tone go? [[Repression]]
+
+
+:: Next upload {"position":"1650,500","size":"100,100"}
+"I'M NOT SURE YET, THINK YOU COULD HELP ME?"
+
+1. Only if you're done with your break [[Happy]] 
+2. Why not do one here? [[Fame]]
+
+
+:: Nightmare {"position":"2700,300","size":"100,100"}
+"It is a nightmare. I'm trapped worrying about how my fans will react to me leaving. Even my mom..."
+
+1. What do you want to do? [[What he wants]]
+
+
+:: Not good {"position":"2550,300","size":"100,100"}
+"I know that. But that's how the last 10 years of my life have been spent."
+
+1. Maybe it's time to change... [[Time to change]]
+2. Sounds like a nightmare. [[Nightmare]] 
+
+
+:: Off 1 {"position":"3600,300","size":"100,100"}
+"What if they hate me?"
+
+1. You should value yourself more than that. [[Off 2]]
+
+
+:: Off 2 {"position":"3750,300","size":"100,100"}
+"Well I do but-"
+
+1. I mean you should care more about how you will feel than how you'll be percieved [[Off 3]]
+
+
+:: Off 3 {"position":"3900,300","size":"100,100"}
+"You're right."
+
+1. It's time to move on Carter [[Off final]]
+
+
+:: Off ending {"position":"3450,300","size":"100,100"}
+"Are you sure?"
+
+1. 100 percent [[Off 1]]
+
+
+:: Off final {"position":"4050,300","size":"100,100"}
+"You're right. Thank you."
+
+1. Now go live a life worth living [[Off final +]]
+
+
+:: Off final + {"position":"4200,300","size":"100,100"}
+"Will do!"
+
+//mask off end
+
+
+:: On 1 {"position":"3600,450","size":"100,100"}
+"You sure that's what would be best?"
+
+1. This is what your fans want [[On 2]]
+
+
+:: On 2 {"position":"3750,450","size":"100,100"}
+"They... Want me to keep going?"
+
+1. They very much do [[On 3]]
+
+
+:: On 3 {"position":"3900,450","size":"100,100"}
+"Yeah, they need my content. So I'll push through for them!"
+
+1. There you go [[On final]]
+
+
+:: On ending {"position":"3450,450","size":"100,100"}
+"Really? You sure I should keep going?"
+
+1. I am, very sure [[On 1]]
+
+
+:: On final {"position":"4050,450","size":"100,100"}
+"NOW THIS HAS BEEN CARTERPILLAR, SIGNING OFF FOR THE NIGHT!"
+
+
+:: Popular Carter {"position":"2700,175","size":"100,100"}
+"She wants to see Carterpillar, not me."
+
+1. But why? [[Support]]
+
+
+:: Questions [Time-Jump] {"position":"1500,375","size":"100,100"}
+"SO, GOT ANY QUESTIONS FOR ME?"
+
+1. How's life been? [[How's life]]
+2. New drink choice? [[Drink choice]]
+3. When are you gonna upload next? [[Next upload]]
+
+
+:: Realization {"position":"1800,250","size":"100,100"}
+"I DON'T KNOW WHAT YOU'RE TALKING ABOUT, I'M LIKE THIS ALL THE TIME!"
+
+1. Are you sure? [[Doubt]]
+2. If you say so... [[Doubt]] 
+3. Okay... [[Doubt]] 
+
+
+:: Repression {"position":"2100,375","size":"100,100"}
+"YOU'RE TOTALLY RIGHT! I APOLOGIZE FOR CHANGING UP LIKE THAT" 
+
+1. Well when you put it like that, this isn't normal is it? [[Doubt]] 
+2. All good Carterpillar [[Lies]] 
+
+
+:: Support {"position":"2850,175","size":"100,100"}
+"She made me Carterpillar. She supported me and told me to follow those dreams. But now it feels more like a nightmare..."
+
+1. Why a nightmare? [[Nightmare]]
+2. Is that why you took a break? [[Break]]
+
+
+:: Support regardless {"position":"2850,450","size":"100,100"}
+"How could you know? They could hate me."
+
+1. Does it matter? What do you want? [[What he wants]] 
+
+
+:: Surprised at response {"position":"1200,375","size":"100,100"}
+"WAIT, FOR REAL??? YOU REALLY DON'T KNOW WHO I AM?
+"THEN LET ME TELL YOU, 
+"I...
+"...AM...
+"...CARTERPILLAR!"
+
+1. Who? [[More surprise]]
+2. Oh yeah, that's who you are [[Kinda disapointed]].
+
+
+:: Time to change {"position":"2700,450","size":"100,100"}
+"What about my fans? How are they going to react to me leaving?"
+
+1. You're right, maybe you can't [[Maybe can't]]
+2. Maybe, but how else will you find out? [[Find out]]
+3. You're wrong, they will support you regardless [[Support regardless]]
+
+
+:: Truth [Time-Jump] {"position":"2250,300","size":"100,100"}
+"This is weird."
+
+//Mask stage 1
+
+1. What is? [[What is weird]]
+2. Don't you talk like this often? [[How often]]
+
+
+:: What he wants [Time-Jump] {"position":"3150,450","size":"100,100"}
+//mask stage 2
+
+"What I want? I want to be free from this nightmare."
+
+1. Right [[Desicion]] 
+
+
+:: What is weird {"position":"2400,175","size":"100,100"}
+"Me talking like this. I don't really talk like this often."
+
+1. Not even with your mom? [[With mom]]
+2. How often then? [[How often]] 
+
+
+:: What they want [Time-Jump] {"position":"3150,575","size":"100,100"}
+//mask stage 2
+
+"Maybe they wouldn't want me to stay..."
+
+1. Mhm [[Desicion]] 
+
+
+:: With mom {"position":"2550,175","size":"100,100"}
+"Even with my mom, she wants to see the popular me."
+
+1. That must be difficult [[Difficult]]
+2. The popular you? [[Popular Carter]]
+
+
+:: Wouldn't {"position":"1950,625","size":"100,100"}
+"IF YOU'RE SURE, THEN MAYBE I COULD. NOT YET THOUGH"
+
+1. I understand [[Fair]] 

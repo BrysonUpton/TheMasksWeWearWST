@@ -1,0 +1,481 @@
+:: StoryTitle
+Josh
+
+
+:: StoryData
+{
+  "ifid": "19C14D99-F169-4277-A07C-1941344C3AA4",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Dialog start",
+  "tag-colors": {
+    "Time-skip": "blue",
+    "Bad-ending": "red"
+  },
+  "zoom": 1
+}
+
+
+:: Acceptance {"position":"2400,175","size":"100,100"}
+"No no it's okay bro, I think I'm ready to talk about it."
+
+//mask stage 1
+
+[[Talking about divorce]] 
+
+
+:: After coffee {"position":"1050,375","size":"100,100"}
+//He downs the whole drink in a single gulp
+
+"MAN, that was some good coffee. SO, what do you do for fun around here?"
+
+1. Nothing [[Upset at response]]
+2. Drink coffee [[Not surprised]]
+3. Sleep [[Surprised]]
+
+
+:: All good {"position":"1650,375","size":"100,100"}
+"Yeah, of course bro,"
+
+[[Questions]] 
+
+
+:: Angry {"position":"2400,50","size":"100,100"}
+"WHAT'S YOUR PROBLEM? CAN'T YOU TELL WHEN SOMEBODY DOESN'T WANT TO TELL YOU ABOUT THEIR LIFE? THIS ISN'T ABOUT YOU. IT WON'T BE ABOUT YOU. SO STAY OUT OF IT!"
+
+1. Ok, just get out then [[He leaves]] -5k
+2. Ow... [[Apologetic]]
+
+
+:: Apologetic [Time-skip] {"position":"2550,175","size":"100,100"}
+"That- might have been too far... But YOU started it"
+
+1. Leave... [[He leaves]] -1k
+2. It's okay... [[Pain]]
+
+
+:: Can't recover {"position":"3300,375","size":"100,100"}
+"No I can't. Not without her..."
+
+//mask stage 2
+
+1. Yes you can [[Fixing his issues]] +3k
+2. Then go find her [[How it went down]] +3k
+
+
+:: Comforted [Time-skip] {"position":"3450,525","size":"100,100"}
+//mask stage 2
+
+"But- Then who would accept me? The real me?"
+
+1. I'll tell you [[The decision]] 
+
+
+:: Definitly upset {"position":"2250,50","size":"100,100"}
+"I'm not going to tell you again. Leave. It. Alone."
+
+1. Okay, sorry... [[Feeling bad]]
+2. Just tell me about it! [[Angry]] -3k
+
+
+:: Dialog start {"position":"900,375","size":"100,100"}
+//Josh walks in
+
+"HEY! Lemme get a black coffee, STAT!"
+
+[[After coffee]]
+
+
+:: Distrust {"position":"3300,775","size":"100,100"}
+"That's okay."
+
+1. But I do understand [[Understanding]] 
+2. Anything else? [[Nothing left]]
+
+
+:: Feeling bad {"position":"2250,300","size":"100,100"}
+"Look, it just isn't going well. Don't want to talk about it..."
+
+1. I'm here to listen if you need me to [[Opening up]]  +2k
+2. We don't have to talk about your love life, if you don't want [[Acceptance]] +2k
+
+
+:: Fixing his issues [Time-skip] {"position":"3450,375","size":"100,100"}
+"You really think I could?"
+
+1. Well- [[The decision]] 
+
+
+:: Getting upset {"position":"2100,175","size":"100,100"}
+"Hey man, back off. It ain't none of your business who I'm with or not."
+
+1. I know something is up, tell me about it [[Definitly upset]] -1k
+2. Alright I'll leave it be [[Feeling bad]] 
+
+
+:: Giving up [Bad-ending] {"position":"3150,175","size":"100,100"}
+"I... I can't go on... I need to go..."
+
+//He leaves
+-Mask on
+
+
+:: He leaves [Time-skip Bad-ending] {"position":"2550,50","size":"100,100"}
+"Fine then."
+
+//He leaves
+-Mask on
+
+
+:: Heart isn't okay {"position":"2250,450","size":"100,100"}
+"Yeah, just my body, life kicked me down pretty recently, but I'm still going"
+
+1. What happened? [[Opening up]] +2k
+2. You're right, at least you're still going [[Still going]]
+3. How have you been keeping up? [[Party story 3]]
+
+
+:: His regrets {"position":"2700,450","size":"100,100"}
+"I fought people, stole, I hung with one too many women... All to fix the hole she left..."
+
+1. Did it help? [[Life after]] +1k
+2. Actually doesn't sound too bad [[The heck man]] -3k
+
+
+:: How it went down [Time-skip] {"position":"3450,250","size":"100,100"}
+"I'm not sure I could see her again, not after how we broke up..."
+
+1. So- [[The decision]] 
+
+
+:: How- {"position":"1500,125","size":"100,100"}
+"How does the internet help you stay here???"
+
+1. Online shopping [[Loss of interest]]
+2. Dunno [[Loss of interest]]
+
+
+:: Huge realization {"position":"3000,525","size":"100,100"}
+"I- I didn't- Woah..."
+
+1. Maybe you just saught accptance [[Seeking]]
+
+
+:: It gets worse {"position":"3000,175","size":"100,100"}
+"I'm not sure I could keep going..."
+
+1. You should [[Giving up]]
+2. That's okay [[Giving up]] -10k
+
+
+:: Lack of friends {"position":"2850,300","size":"100,100"}
+"Nope. Sadly I lost most of my friends when she left. I switched up bad..."
+
+1. How'd you change? [[New personality]]
+
+
+
+:: Life {"position":"1950,450","size":"100,100"}
+"Life has been crazy, bad part is I only remember half of it..."
+
+1. Partying that much? [[Party story 1]]
+2. Are you okay? [[Not okay]] +4k
+
+
+:: Life after {"position":"2850,450","size":"100,100"}
+"Life never got better... Just one party that led to another..."
+
+1. Did that change you? [[New personality]] 
+
+
+:: Loss of interest {"position":"1650,125","size":"100,100"}
+"Oh whatever... Starting to get on my nerves. Anyways..."
+
+[[Questions]]
+
+
+:: Love life {"position":"1950,300","size":"100,100"}
+"Ain't your problem, so mind your own business"
+
+1. You can talk to me about it [[Getting upset]] +2k
+2. Dang man okay [[Feeling bad]]
+
+
+:: Mask off path {"position":"3750,325","size":"100,100"}
+"Why can't you be enough?"
+
+1. You need to Let people into your life [[Off 1]]
+
+
+
+:: Mask on path {"position":"3750,450","size":"100,100"}
+"Wait what?"
+
+1. You're doing fine, you don't need to fix anything [[On 1]]
+
+
+:: More pain {"position":"2850,175","size":"100,100"}
+"It gets worse... She left a hole in my heart that's never been filled."
+
+1. No one else has? [[Lack of friends]] 
+2. That's horrible... [[It gets worse]] +1k
+
+
+:: New personality {"position":"3000,375","size":"100,100"}
+"I had put on a whole new personality...  it's like I'm back in college again. It's horrible"
+
+1. Why is it so bad? [[Want for stability]]
+
+
+:: Not okay {"position":"2100,450","size":"100,100"}
+"I'm doing alright. Body is fine, so I'm doing well"
+
+1. Just your body? [[Heart isn't okay]]
+2. Was it ever not okay? [[Party story 2]]
+
+
+:: Not surprised {"position":"1200,375","size":"100,100"}
+"Explains a lot about you. Guess you don't get out much then, do you?"
+
+1. I don't [[Places to go]]
+2. I do [[Places to go 2]]
+
+
+:: Nothing left [Time-skip Bad-ending] {"position":"3450,775","size":"100,100"}
+"No... I think I'll just see myself out..."
+
+//He leaves
+
+-Mask on
+
+
+:: Off + {"position":"4350,200","size":"100,100"}
+"I never did tell you my name, did I? I'm Josh"
+
+1. Nice to meet you, I'm _____ [[Off final]]
+
+
+:: Off 1 {"position":"3900,325","size":"100,100"}
+"You know how scary that is after she left?"
+
+1. I don't, but you can't keep secluding yourself [[Off 2]]
+
+
+:: Off 2 {"position":"4050,325","size":"100,100"}
+"I mean I guess you have a point..."
+
+1. Talk to other people like you've talked to me [[Off 3]]
+
+
+:: Off 3 {"position":"4200,325","size":"100,100"}
+"I think I get it"
+
+1. Just be yourself [[Off 4]]
+
+
+:: Off 4 {"position":"4350,325","size":"100,100"}
+"I think I can do that, thank you"
+
+1. Of course, part of my job [[Off final]]
+2. Hey, so what was your name again? [[Off +]] +5k
+
+
+:: Off final {"position":"4500,325","size":"100,100"}
+"I hope I get to see you again, but I think my time will be more well spent elsewhere."
+
+1. Anytime
+2. I hope so too
+3. Have a good time
+
+//he leaves
+-mask off
+
+
+:: On 1 {"position":"3900,450","size":"100,100"}
+"But- I thought-"
+
+1. I know, but you should be more then fine [[On 2]]
+
+
+:: On 2 {"position":"4050,450","size":"100,100"}
+"You know what, screw you"
+
+1. I'm just telling the truth [[On 3]]
+
+
+:: On 3 {"position":"4200,450","size":"100,100"}
+"I OPEN MY LIFE UP TO YOU AND YOU TELL ME I'M FINE?"
+
+1. Yup, exactly that [[On Final]]
+
+
+:: On Final {"position":"4350,450","size":"100,100"}
+"YOU'RE INSANE! I'm going to leave and never look back"
+
+1. Okay, bye
+
+//he leaves
+- mask on
+
+
+:: Opening up {"position":"2400,300","size":"100,100"}
+"Well, my wife divorced me not too long ago... Its been rough."
+
+//mask stage 1
+
+1. What happened? [[Talking about divorce]]
+
+
+:: Pain {"position":"2700,175","size":"100,100"}
+"She took everything I had. My money, my car, and my house. I had to rebuild it all"
+
+1. Jeez man, that sucks [[More pain]] -1k
+2. What was she like? [[Talking about wife]] 
+
+
+:: Party story 1 {"position":"2100,575","size":"100,100"}
+//falls off balcony
+
+
+:: Party story 2 {"position":"2250,575","size":"100,100"}
+//Injury of some kind
+
+
+:: Party story 3 {"position":"2400,575","size":"100,100"}
+//Keeping up somehow
+
+
+:: Places to go {"position":"1500,375","size":"100,100"}
+"Yeah makes sense, WELL I am going to a crazy cool party tomorrow. I COULD invite you..."
+
+1. Aren't you a bit old to be going to partys [[Upset]]
+2. I'm good, thanks though [[All good]] 
+
+
+:: Places to go 2 {"position":"1500,500","size":"100,100"}
+"Then you gotta come hang with me and some old college buddies. We're going to this crazy rager tomorrow, and you seem like you could use some crazy in your life"
+
+1. I think you're too old for that [[Upset]] 
+2. No thanks[[All good]] 
+
+
+:: Questions [Time-skip] {"position":"1800,375","size":"100,100"}
+"So, you got any questions for me?"
+
+1. Life been treating you well? [[Life]]
+2. You with anyone? [[Love life]]
+
+
+:: Regret [Time-skip] {"position":"2550,450","size":"100,100"}
+//mask stage 1
+
+"A lot of bad stuff... I'm not proud of it. I'm hurt bro, hurt real bad..."
+
+1. Who hurt you? [[Talking about wife]]
+2. What did you do? [[His regrets]]
+
+
+:: Relief {"position":"1350,250","size":"100,100"}
+"Good, Now you gonna answer my question?"
+
+1. Drink coffee [[Not surprised]] 
+2. Sleep [[Surprised]] 
+
+
+:: Seeking {"position":"3150,525","size":"100,100"}
+"I mean... maybe..."
+
+1. What changed you? [[Wife left]]
+
+
+:: Sincere {"position":"3150,650","size":"100,100"}
+"It's alright bro, I get how it could be fun... Just wasn't for me."
+
+1. I understand [[Understanding]]
+2. I still don't think it could be that bad [[Distrust]]
+
+
+:: Still going {"position":"2400,450","size":"100,100"}
+"A lot of distractions, and a lot of parties. That's the only way I've been keeping up"
+
+1. What are you distracting yourself from? [[Opening up]] 
+2. What can you remember? [[Regret]]
+
+
+:: Sulking {"position":"3000,650","size":"100,100"}
+"The thought that I would enjoy that... don't say that."
+
+1. I'm sorry [[Sincere]]
+
+
+:: Surprised {"position":"1350,500","size":"100,100"}
+"Really? You just sleep? That- thats sad. Why not hang with a guy like me?"
+
+1. No thanks [[Places to go]] 
+2. Sure [[Places to go 2]] 
+
+
+:: Talking about divorce [Time-skip] {"position":"2550,300","size":"100,100"}
+"It was bad. I loved her bro, so much, and she just left me with nothing..."
+
+1. What was she like? [[Talking about wife]] 
+2. How bad was it? [[Pain]]
+
+
+:: Talking about wife {"position":"2700,300","size":"100,100"}
+"My wife bro... She was the best, she made me smile every time I saw her. She made me feel accepted."
+
+1. Does anyone else? [[Lack of friends]]
+2. How has that effected you? [[Life after]]
+
+
+:: The decision {"position":"3600,400","size":"100,100"}
+"Hm?"
+
+1. I think you need to open up to people [[Mask off path]] +5k
+2. I think that you are doing fine as is [[Mask on path]] -5k
+
+
+:: The heck man {"position":"2850,575","size":"100,100"}
+"You think that was fun? Imagine being in a crowd where no one cared about you. No one cared what I was going through"
+
+1. Did you let them? [[Huge realization]] +10k
+2. My bad man [[Sulking]]
+
+
+:: Understanding {"position":"3300,650","size":"100,100"}
+"Just not my thing"
+
+1. Wanna keep talking? [[Nothing left]] 
+
+
+:: Upset {"position":"1650,250","size":"100,100"}
+"WHAT DO YOU MEAN I'M TOO OLD!? I'm more than youthful enough to have fun with my guys."
+
+[[Questions]] 
+
+
+:: Upset at response {"position":"1200,250","size":"100,100"}
+"What do you mean "nothing"!? Do you even leave this shop?"
+
+1. No [[What???]]
+2. Yes [[Relief]]
+
+
+:: Want for stability {"position":"3150,375","size":"100,100"}
+"Ever since I graduated I've just wanted to settle down and live out my life in peace."
+
+1. You still can [[Can't recover]]
+
+
+:: What??? {"position":"1350,125","size":"100,100"}
+"How don't you leave your shop???"
+
+1. I'm kidding I do [[Relief]] 
+2. The internet [[How-]]
+
+
+:: Wife left {"position":"3300,525","size":"100,100"}
+"My wife divorced me, the only person who would accept me for who I am..."
+
+1. She isnt the only person [[Comforted]]
